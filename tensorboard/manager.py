@@ -69,6 +69,7 @@ _TENSORBOARD_INFO_FIELDS = collections.OrderedDict((
     ("version", _type_str),
     ("start_time", _type_timestamp),
     ("pid", _type_int),
+    ("host", _type_str),
     ("port", _type_int),
     ("path_prefix", _type_str),  # may be empty
     ("logdir", _type_str),  # may be empty
